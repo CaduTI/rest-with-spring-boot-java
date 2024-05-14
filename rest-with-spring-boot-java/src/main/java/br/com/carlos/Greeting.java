@@ -1,7 +1,9 @@
 package br.com.carlos;
 
 public class Greeting {
-	public final long id;
+	private final long id;
+	private final String content;
+	
 	public long getId() {
 		return id;
 	}
@@ -10,7 +12,6 @@ public class Greeting {
 		return content;
 	}
 
-	public final String content;
 	
 	public Greeting(long id, String content) {
 		super();
